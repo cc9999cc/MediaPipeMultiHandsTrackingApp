@@ -1,0 +1,91 @@
+[
+  ["S", ["RStand"]],
+  {
+    "S": {
+      "Stand": [
+        [["KNNChecker", 5, 0.15, 0]],
+        [["UpdateLastFrameEnterCount"]]
+      ]
+    },
+    "Stand": {
+      "InterPosKHT1": [
+        [["KNNChecker", 5, 0.15, 1], ["TimeChecker", 10]],
+        [["UpdateLastFrameEnterCount"]]
+      ],
+      "Stand": [
+        [["KNNChecker", 5, 0.15, 0]],
+        []
+      ]
+    },
+    "InterPosKHT1": {
+      "InterPosKHT2": [
+        [["KNNChecker", 5, 0.15, 2], ["TimeChecker", 10]],
+        [["UpdateLastFrameEnterCount"]]
+      ],
+      "InterPosKHT1": [
+        [["KNNChecker", 5, 0.15, 1]],
+        []
+      ]
+    },
+    "InterPosKHT2": {
+      "InterPosKHT3": [
+        [["KNNChecker", 5, 0.15, 3], ["TimeChecker", 10]],
+        [["UpdateLastFrameEnterCount"]]
+      ],
+      "InterPosKHT2": [
+        [["KNNChecker", 5, 0.15, 2]],
+        []
+      ]
+    },
+    "InterPosKHT3": {
+      "Jump": [
+        [["KNNChecker", 5, 0.15, 4], ["TimeChecker", 10]],
+        [["UpdateLastFrameEnterCount"]]
+      ],
+      "InterPosKHT3": [
+        [["KNNChecker", 5, 0.15, 3]],
+        []
+      ]
+    },
+    "Jump": {
+      "RInterPosKHT3": [
+        [["KNNChecker", 5, 0.15, 3], ["TimeChecker", 5]],
+        [["UpdateLastFrameEnterCount"]]
+      ],
+      "Jump": [
+        [["KNNChecker", 5, 0.15, 4]],
+        []
+      ]
+    },
+    "RInterPosKHT3": {
+      "RInterPosKHT2": [
+        [["KNNChecker", 5, 0.15, 2], ["TimeChecker", 10]],
+        [["UpdateLastFrameEnterCount"]]
+      ],
+      "RInterPosKHT3": [
+        [["KNNChecker", 5, 0.15, 3]],
+        []
+      ]
+    },
+    "RInterPosKHT2": {
+      "RInterPosKHT1": [
+        [["KNNChecker", 5, 0.15, 1], ["TimeChecker", 10]],
+        [["UpdateLastFrameEnterCount"]]
+      ],
+      "RInterPosKHT2": [
+        [["KNNChecker", 5, 0.15, 2]],
+        []
+      ]
+    },
+    "RInterPosKHT1": {
+      "RStand": [
+        [["KNNChecker", 5, 0.15, 0], ["TimeChecker", 10]],
+        [["CountAddProcess"]]
+      ],
+      "RInterPosKHT1": [
+        [["KNNChecker", 5, 0.15, 1]],
+        []
+      ]
+    }
+  }
+]

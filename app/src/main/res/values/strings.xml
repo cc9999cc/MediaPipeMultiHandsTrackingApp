@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Mediapipe Pose tracking</string>
+    <string name="no_camera_access" translatable="false">Please grant camera permissions.</string>
+    <string name="count_title" translatable="false">Count:</string>
+</resources>
